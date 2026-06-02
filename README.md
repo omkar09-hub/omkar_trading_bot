@@ -25,6 +25,24 @@ This project is a high-performance Python application designed to place orders (
 
 ---
 
+## 📸 Screenshots
+
+### 🖥️ Command-Line Interface (CLI)
+The interactive CLI powered by the Rich library provides a beautiful, colorized terminal experience for placing and managing orders.
+
+<p align="center">
+  <img src="screenshots/cli_interface.png" alt="CLI Interface" width="700"/>
+</p>
+
+### 🌐 Streamlit Web Dashboard
+A premium visual dashboard for monitoring balances, placing orders, tracking positions, and viewing live logs — all from your browser.
+
+<p align="center">
+  <img src="screenshots/dashboard.png" alt="Streamlit Dashboard" width="700"/>
+</p>
+
+---
+
 ## Directory Structure
 
 ```
@@ -35,10 +53,14 @@ trading_bot/ (Workspace Root)
 │   ├── orders.py           # Order validation and submission layer
 │   ├── validators.py       # Input data validation functions
 │   └── logging_config.py   # Configures logger to trading_bot.log & console
+├── screenshots/
+│   ├── cli_interface.png   # CLI interface screenshot
+│   └── dashboard.png       # Streamlit dashboard screenshot
 ├── app.py                  # Streamlit Web UI dashboard
 ├── cli.py                  # Command-line interface entry point
 ├── requirements.txt        # Third-party packages required
 ├── .env.example            # Environment configuration template
+├── .gitignore              # Git ignore rules
 └── README.md               # User guide and project documentation
 ```
 
